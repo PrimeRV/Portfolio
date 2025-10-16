@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaNodeJs, FaReact, FaSquareFacebook } from "react-icons/fa6";
 import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { ReactTyped } from "react-typed";
-import pic from "../../public/CoderRV.jpeg";
+const pic = "/CoderRV.jpeg";
 import "../Styles/glowingButton.css";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
                 </div>
                 <p className="text-sm md:text-md leading-relaxed">
                 I am a passionate Full Stack Web Developer with a wealth of experience
-                in designing and building dynamic, scalable web applications. Proficient
+                in designing and building dynamic web applications. Proficient
                 in JavaScript, React.js, Node.js, Express, and MongoDB, I also specialize
                 in developing cross-platform mobile applications using Android Studio
                 and React Native. I thrive on solving complex challenges, excelling in

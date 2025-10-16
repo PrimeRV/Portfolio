@@ -1,18 +1,18 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import css from "../../public/css.jpg";
-import Golang from "../../public/golang.png";
-import html from "../../public/html.png";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import mongodb from "../../public/mongodb.jpg";
-import mysql from "../../public/MySQL.png";
-import node from "../../public/nodeJs.png";
-import postgresql from "../../public/postgresql.png";
-import python from "../../public/python.png";
-import react from "../../public/react.png";
-import tailwind from "../../public/tailwind.png";
 import '../Styles/CardsAnimation.css';
+const css = "/css.jpg";
+const Golang = "/Golang.png";
+const html = "/html.png";
+const java = "/java.png";
+const javascript = "/javascript.png";
+const mongodb = "/mongodb.jpg";
+const mysql = "/MySQL.png";
+const node = "/nodeJs.png";
+const postgresql = "/postgresql.png";
+const python = "/python.png";
+const react = "/react.png";
+const tailwind = "/tailwind.png";
 
 function Skills() {
     const cardItem = [
@@ -80,7 +80,7 @@ function Skills() {
     return (
         <div name="Skills" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 p-8 dark:bg-gray-900 transition-colors duration-300 dark:text-white">
             <div>
-                <h1 className="text-3xl font-bold mb-5 text-3xl font-bold mb-3">Skills</h1>
+                <h1 className="text-3xl font-bold mb-5">Skills</h1>
                 <p>Core Skills And &nbsp;
                 <ReactTyped
                     className="text-red-500 font-bold text-lg md:text-xl"
@@ -94,7 +94,7 @@ function Skills() {
                 <br/>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 my-5">
                     {cardItem.map(({ id, logo, name }) => (
-                        <div className="flex flex-col items-center justify-center bg-white shadow-md transform hover:scale-105 transition-transform duration-300 p-4 border border-gray-200 rounded-lg"key={id}>
+                        <div className="flex flex-col items-center justify-center bg-white shadow-md transform hover:scale-105 transition-transform duration-300 p-4 border border-gray-200 rounded-lg" key={id}>
                         <img
                         src={logo}
                         className="w-[70px] h-[70px] mb-3 rounded-full border border-gray-300 shadow-sm"

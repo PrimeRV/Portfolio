@@ -1,8 +1,8 @@
 import React from "react";
-import express from "../../public/express.png";
-import mongoDB from "../../public/mongodb.jpg";
-import nodejs from "../../public/node.png";
-import reactjs from "../../public/reactjs.png";
+const express = "/express.png";
+const mongoDB = "/mongodb.jpg";
+const nodejs = "/node.png";
+const reactjs = "/reactjs.png";
 
 function PortFolio() {
     const cardItem = [
